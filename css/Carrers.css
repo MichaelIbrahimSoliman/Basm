@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --main-color: hsl(348deg 83% 47%);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: emoji;
+    height: 2500px;
+    font-family: var(--chakra-fonts-body);
+    color: var(--chakra-colors-chakra-body-text);
+    background: var(--chakra-colors-chakra-body-bg);
+    transition-property: background-color;
+    transition-duration: var(--chakra-transition-duration-normal);
+    line-height: var(--chakra-lineHeights-base);
+    position: relative;
+    min-height: 100%;
+    font-feature-settings: 'kern';
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: var(--color-primary);
+  }
+  
+.carrers {
+    padding: 80px 0;
+   
+}
+
+.carrers .title {
+    color: #000;
+    font-size: 40px;
+    margin: 10px;
+    text-align: center;
+}
+
+.carrers .sub-title {
+    text-align: center;
+    font-size: 20px;
+    position: relative;
+    color: var(--main-color);
+}
+
+.carrers .sub-title::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 3%;
+    background: #212121;
+    right: 42%;
+    top: 47%;
+}
+
+.carrers .sub-title::before {
+    content: "";
+    width: 3%;
+    height: 2px;
+    background: #212121;
+    position: absolute;
+    left: 43%;
+    top: 47%;
+}
+
+
+.carrers .text,
+.carrers .form-parent {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    color: #121212;
+}
+
+.carrers p {
+    line-height: 1.6;
+    font-weight: bolder;
+    word-spacing: 1.6;
+}
+
+.Carrers .form-parent h2 {
+    margin: 5px 0;
+}
+
+.carrers .form-parent input,
+.carrers .form-parent textarea {
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin: 10px 5px;
+}
+
+.w-50 {
+    width: calc(50% -10px);
+    float: left;
+}
+
+.w-100 {
+    width: 99%;
+}
+
+.carrers .form-parent textarea {
+    height: 150px;
+}
+
+.carrers .form-parent button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: var(--main-color);
+    border: 1px solid var(--main-color);
+    color: #fff;
+}
+
+.carrers .text .item {
+    width: 30%;
+}
+
+.carrers .text .item .icon,
+.Carrers .text .item .description {
+    float: left;
+}
+
+.carrers .text .item .icon {
+    padding: 6px;
+    margin: 17px;
+    padding-left: 0;
+    margin-left: 0;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.carrers .text .item .description p {
+    margin: 5px 0;
+}
